@@ -1,0 +1,46 @@
+body
+{
+    background: linear-gradient(90deg, rgba(0,0,0,0.7 ) 0%, rgba(0,0,0,0.5) 25%, rgba(0,228,255,0) 100%);
+}
+
+.index
+{
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-image: url("div.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 200px;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    display: block;
+}
+
+.index:hover
+{
+    background-color: black;
+    color: grey;
+}
+
+.img
+{
+    clip-path: circle();
+}
+
+.center
+{
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
